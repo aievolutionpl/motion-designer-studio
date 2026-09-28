@@ -1,5 +1,7 @@
 # Motion Designer v1.4 — Codex Edition
 
+![Motion Designer — studio motion design dla Codex](assets/motion-designer-banner.png)
+
 **Motion Designer** to plugin do Codeksa (Codex-first) — system produkcji motion AI-native.
 
 `brief → inspekcja repo → Creative DNA → referencje → Style Lock → storyboard → patterny → router silników → build → preview → review/fix → eksport`

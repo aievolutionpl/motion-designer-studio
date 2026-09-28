@@ -1,5 +1,7 @@
 # Motion Designer v1.4 — Codex Edition
 
+![Motion Designer — Codex-first motion studio](assets/motion-designer-banner.png)
+
 **Motion Designer** is a Codex-first AI-native motion production system.
 
 > 🇵🇱 Wersja polska: [`README.pl.md`](README.pl.md)
