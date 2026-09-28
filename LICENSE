@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON THIRD-PARTY COMPONENTS
-
-This license covers the original workflow instructions, plugin manifests and
-schemas authored in this repository. Referenced engines and projects listed in
-THIRD_PARTY_NOTICES.md (Remotion, HyperFrames, Motion Canvas, Three.js, FFmpeg,
-Higgsfield AI Skills and others) are NOT licensed under this MIT license and
-keep their own terms. Check engine licensing before redistribution or
-commercial packaging of anything that bundles their code.
