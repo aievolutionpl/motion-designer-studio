@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Motion Scene",
+  "type": "object",
+  "required": [
+    "id",
+    "start_sec",
+    "duration_sec",
+    "purpose",
+    "type"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "start_sec": {
+      "type": "number",
+      "minimum": 0
+    },
+    "duration_sec": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string",
+      "default": "auto"
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visual": {
+      "type": "object"
+    },
+    "motion": {
+      "type": "object"
+    },
+    "audio_cues": {
+      "type": "array"
+    },
+    "acceptance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Motion Project",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "creative",
+    "scenes",
+    "audio",
+    "cost",
+    "outputs"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "project": {
+      "type": "object",
+      "required": [
+        "name",
+        "duration_sec",
+        "fps",
+        "formats",
+        "mode"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "duration_sec": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "fps": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "formats": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "16:9",
+              "9:16",
+              "4:5",
+              "1:1",
+              "21:9",
+              "4:3",
+              "3:4"
+            ]
+          }
+        },
+        "mode": {
+          "enum": [
+            "quality",
+            "balanced",
+            "budget"
+          ]
+        },
+        "brand_profile": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "style_profile": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "max_review_iterations": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5,
+          "default": 3
+        }
+      }
+    },
+    "creative": {
+      "type": "object",
+      "properties": {
+        "goal": {
+          "type": "string"
+        },
+        "audience": {
+          "type": "string"
+        },
+        "hook": {
+          "type": "string"
+        },
+        "story_arc": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "motion_personality": {
+          "type": "string"
+        },
+        "style_dna": {
+          "type": "object"
+        }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "$ref": "motion-scene.schema.json"
+      }
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "music": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bpm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "downbeat_sec": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "cues": {
+          "type": "array"
+        }
+      }
+    },
+    "cost": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "budget": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "estimated": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "outputs": {
+      "type": "array"
+    }
+  }
+}

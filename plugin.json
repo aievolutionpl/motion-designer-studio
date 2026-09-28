@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "motion-designer-studio",
+  "version": "1.4.0",
+  "description": "Codex-first AI motion design studio: Creative DNA, Style Lock, storyboard, renderer routing, code-native build, preview/review loops and multi-format delivery.",
+  "author": {
+    "name": "Tabasco Creatives / AI Evolution Labs"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Motion Designer",
+        "shortDescription": "Codex-first motion design studio",
+        "longDescription": "Motion Designer turns a brief or existing product repo into a production-ready motion project. It inspects the current codebase, builds Creative DNA and Style Lock, creates a timed storyboard, routes scenes to Remotion, HyperFrames/HTML+GSAP, Motion Canvas, Three.js or FFmpeg, then builds previews and runs a bounded visual review/fix loop. Generative video is treated as an optional shot-asset layer, not the master timeline. Studio defaults favor premium visual-first composition, minimal copy, purposeful motion and strong anti-AI-slop rules.",
+        "developerName": "Tabasco Creatives / AI Evolution Labs",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "/motion Build a 20-second product launch video from this repo. Inspect the project first, create Style Lock and storyboard, then build the best local renderer path and preview it.",
+          "/motion-style Give me three genuinely different visual directions, each with Style DNA, one expressive move, engine affinity and anti-slop rules.",
+          "/motion-review Inspect the current motion project and render output. Find concrete visual/timing problems and patch the code, maximum three review cycles."
+        ]
+      }
+    }
+  }
+}

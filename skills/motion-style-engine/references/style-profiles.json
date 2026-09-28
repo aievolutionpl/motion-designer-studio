@@ -1,0 +1,193 @@
+[
+  {
+    "id": "flat-vector-pop",
+    "axes": {
+      "expressive": 65,
+      "organic": 30,
+      "experimental": 35
+    },
+    "engines": [
+      "remotion",
+      "motion-canvas",
+      "hyperframes"
+    ],
+    "expressive_move": "oversized shape transformation",
+    "anti_slop": [
+      "generic neon glow",
+      "tiny icon clutter",
+      "random gradients"
+    ]
+  },
+  {
+    "id": "ink-marker-editorial",
+    "axes": {
+      "expressive": 72,
+      "organic": 78,
+      "experimental": 55
+    },
+    "engines": [
+      "remotion",
+      "after-effects",
+      "hyperframes"
+    ],
+    "expressive_move": "marker stroke reveal",
+    "anti_slop": [
+      "glassmorphism",
+      "shiny 3D",
+      "generic tech gradients"
+    ]
+  },
+  {
+    "id": "monochrome-void",
+    "axes": {
+      "expressive": 45,
+      "organic": 45,
+      "experimental": 58
+    },
+    "engines": [
+      "hyperframes",
+      "remotion",
+      "motion-canvas"
+    ],
+    "expressive_move": "silhouette/type scale transformation",
+    "anti_slop": [
+      "gray clutter",
+      "particles",
+      "busy backgrounds"
+    ]
+  },
+  {
+    "id": "polished-product-showcase",
+    "axes": {
+      "expressive": 48,
+      "organic": 32,
+      "experimental": 38
+    },
+    "engines": [
+      "threejs",
+      "generative-video",
+      "after-effects",
+      "remotion"
+    ],
+    "expressive_move": "hero product reveal",
+    "anti_slop": [
+      "invented product details",
+      "impossible reflections",
+      "random holographic UI"
+    ]
+  },
+  {
+    "id": "broadcast-tv-spot",
+    "axes": {
+      "expressive": 62,
+      "organic": 55,
+      "experimental": 30
+    },
+    "engines": [
+      "generative-video",
+      "after-effects",
+      "remotion"
+    ],
+    "expressive_move": "one memorable hero shot/transition",
+    "anti_slop": [
+      "fake lens flare",
+      "endless slow motion",
+      "generic luxury smoke"
+    ]
+  },
+  {
+    "id": "organic-ugc-motion",
+    "axes": {
+      "expressive": 58,
+      "organic": 75,
+      "experimental": 18
+    },
+    "engines": [
+      "generative-video",
+      "remotion"
+    ],
+    "expressive_move": "hook gesture or proof moment",
+    "anti_slop": [
+      "fake podcast look",
+      "overprocessed skin",
+      "excessive captions"
+    ]
+  },
+  {
+    "id": "cel-motion",
+    "axes": {
+      "expressive": 78,
+      "organic": 62,
+      "experimental": 52
+    },
+    "engines": [
+      "generative-video",
+      "remotion",
+      "after-effects"
+    ],
+    "expressive_move": "snap pose/transformation",
+    "anti_slop": [
+      "random anime cliches",
+      "excessive glow",
+      "inconsistent character rendering"
+    ]
+  },
+  {
+    "id": "watercolor-story",
+    "axes": {
+      "expressive": 52,
+      "organic": 90,
+      "experimental": 42
+    },
+    "engines": [
+      "generative-video",
+      "after-effects",
+      "remotion"
+    ],
+    "expressive_move": "wash transition",
+    "anti_slop": [
+      "glossy 3D",
+      "hard UI cards",
+      "neon"
+    ]
+  },
+  {
+    "id": "technical-motion-diagram",
+    "axes": {
+      "expressive": 38,
+      "organic": 10,
+      "experimental": 28
+    },
+    "engines": [
+      "motion-canvas",
+      "remotion",
+      "hyperframes"
+    ],
+    "expressive_move": "progressive system build",
+    "anti_slop": [
+      "meaningless glowing nodes",
+      "fake code",
+      "spaghetti connectors"
+    ]
+  },
+  {
+    "id": "experimental-wild-card",
+    "axes": {
+      "expressive": 90,
+      "organic": 50,
+      "experimental": 90
+    },
+    "engines": [
+      "hyperframes",
+      "threejs",
+      "after-effects",
+      "generative-video"
+    ],
+    "expressive_move": "one controlled convention-breaking mechanism",
+    "anti_slop": [
+      "effect soup",
+      "random glitch",
+      "everything-at-once"
+    ]
+  }
+]

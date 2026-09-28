@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+vendor/
+
+# render + build output
+motion/output/
+motion/previews/
+dist/
+build/
+out/
+*.mp4
+*.mov
+*.webm
+*.gif
+!docs/**/*.gif
+
+# local notes and scratch
+motion/notes/
+*.local.md
+scratch/
+notes/private/
+
+# secrets / env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# logs and caches
+*.log
+.cache/
+.tmp/
+tmp/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
