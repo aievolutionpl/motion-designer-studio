@@ -1,6 +1,8 @@
 # Motion Designer v1.4 — Codex Edition
 
-Motion Designer is a Codex-first AI-native motion production system.
+**Motion Designer** is a Codex-first AI-native motion production system.
+
+> 🇵🇱 Wersja polska: [`README.pl.md`](README.pl.md)
 
 `brief → repo inspection → Creative DNA → references → Style Lock → storyboard → patterns → engine router → build → preview → review/fix → export`
 
@@ -57,8 +59,11 @@ skills/
 - Planning and prompts do not authorize paid generation; costs are verified and approved first.
 - Renders, previews and uploads are only reported as done when a command actually completed them.
 
+## License
+MIT — see [`LICENSE`](LICENSE).
+
 ## Third-party notices
-See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+Engines and referenced projects keep their own terms — see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## Author
 Tabasco Creatives / AI Evolution Labs.

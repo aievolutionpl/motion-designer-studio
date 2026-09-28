@@ -4,8 +4,12 @@
   "version": "1.4.0",
   "description": "Codex-first AI motion design studio: Creative DNA, Style Lock, storyboard, renderer routing, code-native build, preview/review loops and multi-format delivery.",
   "author": {
-    "name": "Tabasco Creatives / AI Evolution Labs"
+    "name": "Tabasco Creatives / AI Evolution Labs",
+    "url": "https://github.com/aievolutionpl"
   },
+  "license": "MIT",
+  "homepage": "https://github.com/aievolutionpl/motion-designer-studio",
+  "repository": "https://github.com/aievolutionpl/motion-designer-studio",
   "extensions": {
     "com.openai": {
       "interface": {
